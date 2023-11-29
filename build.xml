@@ -96,7 +96,7 @@
         </unjar>
     </target>
 
-    <target name="jar" depends="hafen-client,buildinfo,lib-classes">
+    <target name="jar" depends="hafen-client,lib-classes">
         <jar destfile="build/hafen.jar" update="true">
             <fileset dir="build/classes"/>
             <fileset dir="build/classes-lib"/>
