@@ -12,3 +12,4 @@ amber-*.zip
 /doc/javadoc
 *.rar
 etc/res/*.exe
+run.bat
